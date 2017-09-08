@@ -98,7 +98,7 @@ function updateRating() {
 function lockMatchedCards(card1, card2) {
     $('.card').each(function() {
         if ($(this).find('.fa').hasClass(card1)) {
-            $(this).addClass('match show open');
+            $(this).addClass('match show open animated bounce');
         }
     });
     openedCards = [];
