@@ -72,7 +72,7 @@ function addToOpenedCards(card) {
             //update the moves count
             updateMoves();
             //when no match is found, hide the cards
-            setTimeout(hideCards, 500);
+            setTimeout(hideCards, 1000);
         }
     }
 
